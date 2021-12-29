@@ -149,8 +149,8 @@ const cameraHandle = () =>{
 									}}
 									unmountOnExit
 								>
-									<div className="direct-video" style={{width:"25%", height:"300px"}}>
-									<video style={{width:"40%", height:"40%"}}  ref={videoRef} autoPlay/>
+									<div className="direct-video" style={{width:"20%",marginBottom: "200px"}}>
+									<video style={{width:"76%", height:"32%"}}  ref={videoRef} autoPlay/>
 									</div>
 									 
 									{/* <video id="video" width="600px" height="400px" autoPlay></video> */}
