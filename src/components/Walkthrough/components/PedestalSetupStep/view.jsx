@@ -12,12 +12,25 @@ const PedestalSetupStepView = ({ classes }) => (
 				<div>
 					<Typography
 						variant="subtitle1"
-						style={{ fontWeight: "bold" }}
+						style={{
+							fontWeight: "bold",
+							color: "#fff",
+							fontSize: "1.5rem",
+							textTransform: " uppercase",
+							fontFamily: "Imperator",
+						}}
 						gutterBottom
 					>
 						Instructions
 					</Typography>
-					<Typography variant="body1" gutterBottom>
+					<Typography
+						variant="body1"
+						style={{
+							color: "#fff",
+							fontSize: "1.1rem",
+						}}
+						gutterBottom
+					>
 						{`Please put your phone in the pedestal to load the Monster's visor.`}
 					</Typography>
 				</div>

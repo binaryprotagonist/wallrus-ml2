@@ -25,7 +25,9 @@
     "serve:bunker": "serve --cors --debug -p 5000 --ssl-cert ./certs/bunker/cert.pem --ssl-key ./certs/bunker/key.pem -s build",
     "deploy:dev": "yarn build:dev && yarn serve:local",
     "deploy:local": "yarn build:local && yarn serve:local",
-    "deploy:bunker": "yarn build:bunker && yarn serve:bunker"
+    "deploy:bunker": "yarn build:bunker && yarn serve:bunker",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix --ext .js,.jsx ."
   },
   "eslintConfig": {
     "extends": [

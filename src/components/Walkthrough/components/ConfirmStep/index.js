@@ -4,11 +4,11 @@ import PropTypes from "prop-types";
 import ConfirmStepView from "./view";
 
 const ConfirmStep = ({ classes }) => {
-  return <ConfirmStepView classes={classes} />;
+	return <ConfirmStepView classes={classes} />;
 };
 
 ConfirmStep.propTypes = {
-  classes: PropTypes.object,
+	classes: PropTypes.object,
 };
 
 export default ConfirmStep;

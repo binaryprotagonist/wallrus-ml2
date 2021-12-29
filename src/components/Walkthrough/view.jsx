@@ -44,7 +44,7 @@ const WalkthroughView = ({
 	useEffect(() => {
 		console.log("Log", noButtonStatus);
 	}, [noButtonStatus]);
-
+	console.log("....................", activeStep);
 	return (
 		<>
 			<CssBaseline />
@@ -112,7 +112,7 @@ const WalkthroughView = ({
 										<PedestalSetupStep
 											classes={classes}
 											handleNext={handleNext}
-											onHandleClose={handleBackbtn}
+											onHandleClose={handleBack}
 										/>
 									)}
 
