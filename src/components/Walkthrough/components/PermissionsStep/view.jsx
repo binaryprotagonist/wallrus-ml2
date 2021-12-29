@@ -31,7 +31,7 @@ const PermissionsStepView = ({
 	const [openPedastal, setopenPedastal] = React.useState(true);
 	const[stream,setStream] = React.useState()
 	const videoRef = useRef(null);
-
+	const[camera, setCamera] = React.useState(false)
 	useEffect(() => {
 		const getUserMedia = async () => {
 		  try {
@@ -72,6 +72,7 @@ const cameraHandle = () =>{
 		setOpenError(false);
 		setopenPedastal(true);
 		handleNoButton(false);
+		setCamera(!camera);
 	};
 
 	return (
