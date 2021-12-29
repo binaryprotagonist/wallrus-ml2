@@ -148,7 +148,7 @@ const cameraHandle = () =>{
 										// transitionDelay: '800ms',
 									}}
 									unmountOnExit
-								>
+								> 
 									<div className="direct-video" style={{width:"100%"}}>
 									<video style={{width:"100%", position:"relative"}}  ref={videoRef} autoPlay/>
 									</div>
