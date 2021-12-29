@@ -34,7 +34,7 @@ const PermissionsStepView = ({
 	const[camera, setCamera] = React.useState(false)
 	useEffect(() => {
 		const getUserMedia = async () => {
-		  try {
+		  try { 
 			let stream = await navigator.mediaDevices.getUserMedia({video: true});
 			setStream(stream)
 			videoRef.current.srcObject = stream;
