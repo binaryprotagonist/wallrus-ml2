@@ -230,7 +230,7 @@ button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.InfoBoxFullWidth-ac
 }
 .direct-video video {
   position: relative !important;
-  width: 100% !important;
+  width: 70% !important;
   height: 100% !important;
 }
 }
