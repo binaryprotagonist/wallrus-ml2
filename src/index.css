@@ -217,6 +217,14 @@ button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.InfoBoxFullWidth-ac
 {
   margin: 0 !important;
 }
+.direct-video {
+  width: 100% !important;
+}
+.direct-video video {
+  position: relative !important;
+  width: 100% !important;
+  height: 100% !important;
+}
 }
 
 .permissionBtn{
