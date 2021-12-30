@@ -187,6 +187,14 @@ button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.InfoBoxFullWidth-ac
   margin-top: 10px !important;
   justify-content: center;
 }
+.direct-video {
+  width: 100% !important;
+}
+.direct-video video {
+  position: relative !important;
+  width: 100% !important;
+  height: 100% !important;
+}
 @media (max-width:767px) {
   .top-images{
     display: none;
@@ -223,7 +231,7 @@ button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.InfoBoxFullWidth-ac
 .direct-video video {
   position: relative !important;
   width: 100% !important;
-  height: 100% !important;
+  height: 27vh !important;
 }
 }
 
