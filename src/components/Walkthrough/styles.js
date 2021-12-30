@@ -97,7 +97,7 @@ const styles = (theme) => ({
 		margin: theme.spacing(3, 0, 2),
 	},
 	circularProgress: {
-		margin: "30px 0",
+		margin: "30px 0 0 0",
 	},
 	startGameButton: {
 		margin: theme.spacing(3, 0, 2),
