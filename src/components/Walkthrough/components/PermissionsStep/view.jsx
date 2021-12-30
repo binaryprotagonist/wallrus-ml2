@@ -24,7 +24,7 @@ const PermissionsStepView = ({
 	classes,
 	permissionsGranted,
 	handlePermissionsGranted,
-	handleNoButton,
+	handleNoButton, 
 }) => {
 	const [open, setOpen] = React.useState(false);
 	const [openError, setOpenError] = React.useState(false);
