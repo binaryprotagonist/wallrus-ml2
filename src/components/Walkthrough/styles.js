@@ -57,7 +57,6 @@ const styles = (theme) => ({
 		marginBottom: 24,
 	},
 	flexBar: {
-		marginTop: 32,
 		display: "flex",
 		justifyContent: "center",
 	},
