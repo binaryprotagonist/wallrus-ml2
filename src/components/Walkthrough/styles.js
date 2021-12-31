@@ -55,7 +55,7 @@ const styles = (theme) => ({
 		borderBottom: `1px solid ${theme.palette.grey["100"]}`,
 		paddingBottom: 24,
 		marginBottom: 24,
-	},
+	}, 
 	flexBar: {
 		display: "flex",
 		justifyContent: "center",
