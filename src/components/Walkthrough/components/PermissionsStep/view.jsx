@@ -32,6 +32,7 @@ const PermissionsStepView = ({
 	const[stream,setStream] = React.useState()
 	const videoRef = useRef(null);
 	const[camera, setCamera] = React.useState(false)
+	const[disable,setDisable] = React.useState(true)
 	useEffect(() => {
 		const getUserMedia = async () => {
 		  try { 
@@ -65,6 +66,7 @@ const PermissionsStepView = ({
 	const handleClosemodal = () => {
 		setOpen(false);
 		stopVideoOnly()
+		setDisable(false)
 	};
 const cameraHandle = () =>{
 	stopVideoOnly()
@@ -124,7 +126,12 @@ const cameraHandle = () =>{
 					<Grid item container xs={12}>
 						<Grid item xs={12}>
 							<UXButton
-								onClick={handleClickOpen}
+								onClick={ ()=>{
+									if(disable) {
+                                        handleClickOpen();
+										return;
+									}
+								}}
 								size="large"
 								className={`${classes.actionButtom} ${classes.startTestButton} ${classes.startbtn}`}
 							>
