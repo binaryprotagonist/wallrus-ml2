@@ -64,7 +64,7 @@ const Walkthrough = ({ classes, ...props }) => {
 			activeStep === 0 &&
 			!speedTestResults.validated) ||
 		(activeStep === 1 && !termsChecked) ||
-		(activeStep === 3 && !permissionsGranted);
+		(activeStep === 4 && !permissionsGranted);
 
 	const stepActions = () => {
 		switch (activeStep) {
