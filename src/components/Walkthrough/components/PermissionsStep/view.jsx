@@ -46,8 +46,9 @@ const PermissionsStepView = ({
 	  }, []);
 	  function stopVideoOnly() {
 		const tracks = stream.getTracks()
+		console.log("..........................stop")
 			tracks[0].stop()
-  
+			console.log("..........................stop after")
 	}
 	const handleClickOpen = () => {
 		setOpen(true);
